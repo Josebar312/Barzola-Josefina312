@@ -1,0 +1,59 @@
+body {
+  background-color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+}
+#grupo1{
+  padding: 10px;
+  margin: 10px;
+}
+
+#grupo2{
+  margin: 20px;
+}
+
+
+.carousel {
+    height: 100vh;
+  }
+
+  .carousel-inner,
+  .carousel-item {
+    height: 100%;
+  }
+
+  .carousel-item {
+    background-color: #000;
+  }
+
+  .carousel-item img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+
+nav ul li a:hover {
+    background: rgba(0, 0, 0, 0.342);
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+
+
+.navbar-brand{
+    display: block;
+    width: 70px;
+    height: 70px;
+    background: url(./imgs/logo.png) no-repeat 0 0 scroll;
+    background-position: left;
+    font-size: 0%;
+    background-size: 50px;
+   margin-left: 20px;
+}
+
+.img-fluid{
+  max-width: 100%;
+  height: auto;
+}
